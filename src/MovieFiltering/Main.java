@@ -16,18 +16,18 @@ public class Main {
 
         for (int i = 0; i < 5; i++) {      // Beş film oluşturacağımız için beş kez tekrar eden for döngüsü
 
-            System.out.println("Please enter the name of the movie you want to add: ");
+            System.out.print("Please enter the name of the movie you want to add: ");
             String movieName = input.nextLine();
 
-            System.out.println("Release year of the movie:");
+            System.out.print("Release year of the movie:");
             int releaseYear = input.nextInt();
             input.nextLine();
 
 
-            System.out.println("Genre of the movie: ");
+            System.out.print("Genre of the movie: ");
             String movieGenre = input.nextLine();
 
-            System.out.println("IMDB point of the movie:");
+            System.out.print("IMDB point of the movie:");
             double imdbPoint = input.nextDouble();
             input.nextLine();
 
